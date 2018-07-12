@@ -1,0 +1,20 @@
+{
+  "name": "maho.re",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-beta.6",
+    "buefy": "^0.6.6",
+    "graphql-tag": "^2.9.2",
+    "nuxt-buefy": "^0.1.0",
+    "nuxt-edge": "^2.0.0-25500158.1b46a95",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0"
+  }
+}
