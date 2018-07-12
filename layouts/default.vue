@@ -9,9 +9,9 @@ import TheMenu from '@/components/TheMenu.vue';
 
 
 
-/*export default {
+export default {
   components: {
     TheMenu,
   },
-};*/
+};
 </script>
