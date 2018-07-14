@@ -1,24 +1,29 @@
 <template lang="pug">
-  ul
-    li(v-for="(item, index) in posts", :key="index")
-      h3 {{item.title}}
-      p {{item.content}}
+  .section
+    .container
+      ul.columns
+        li.column.is-one-third(v-for="(item, index) in posts", :key="index")
+          .card
+            .card-image
+              figure.image.is-4by3
+                img(:src='item.images[0].src', alt='Placeholder image')
+            .card-content
+              .media
+                .media-content
+                  p.title.is-4 {{item.title}}
+                  p.subtitle.is-6 {{item.date}}
+              .content
+                | {{item.content}}
 </template>
 
 <script>
-import gql from 'graphql-tag';
+import posts from '~/data/posts';
 
 export default {
-  apollo: {
-    posts: gql`
-      {
-        posts @client {
-          content
-          date
-          title
-        }
-      }
-    `,
+  data: () => {
+    return {
+      posts,
+    };
   },
 };
 </script>

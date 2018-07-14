@@ -4,5 +4,5 @@ export default {
       default: '~/plugins/apollo.js',
     },
   },
-  modules: ['nuxt-buefy', '@nuxtjs/apollo'],
+  modules: ['nuxt-buefy'],
 };

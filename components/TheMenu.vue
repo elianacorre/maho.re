@@ -9,19 +9,13 @@
 </template>
 
 <script>
-import gql from 'graphql-tag';
+import menu from '~/data/menu.json';
 
 export default {
-  apollo: {
-    menu: gql`
-      {
-        menu @client {
-          exact
-          label
-          to
-        }
-      }
-    `,
-  },
+  data: () => { 
+    return {
+      menu,
+    }
+  }
 };
 </script>

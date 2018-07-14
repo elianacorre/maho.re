@@ -1,5 +1,5 @@
 [
-  { "__typename": "MenuItem", "exact": true, "label": "Accueil", "to": "/" },
-  { "__typename": "MenuItem", "exact": false, "label": "Portfolio", "to": "/portfolio" },
-  { "__typename": "MenuItem", "exact": false, "label": "A propos", "to": "/a-propos" }
+  { "exact": true, "label": "Accueil", "to": "/" },
+  { "exact": false, "label": "Portfolio", "to": "/portfolio" },
+  { "exact": false, "label": "A propos", "to": "/a-propos" }
 ]

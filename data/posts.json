@@ -1,4 +1,0 @@
-[
-  { "__typename": "Post", "content": "blablabla", "date": "2018-07-09", "images": [], "title": "Bienvenue"},
-  { "__typename": "Post", "content": "bla", "date": "2018-07-09", "images": [], "title": "Deux"}
-]
